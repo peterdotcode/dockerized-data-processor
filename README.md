@@ -1,5 +1,9 @@
 # dockerized-data-processor
+Live Juypter notebook demo available here:
+<https://ec2-63-32-55-21.eu-west-1.compute.amazonaws.com:8888/>
+Please contact me directly for the password
 
+_note this site does not contain a valid SSL cert so you will need to click show details on the bottom left and press **proceed/continue**
 ## Setup
 
 Run the below commands to create the docker container. Allow a couple of minutes to build the container builds conda 4.6.8.
