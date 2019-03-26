@@ -6,7 +6,7 @@ Live Juypter notebook demo available here:
 Please contact me directly for the password
 
 _The site does not contain a valid SSL cert so you will need to click show details on the bottom left and press **proceed/continue**_
-## Setup
+## Setup Locally
 
 Run the below commands to create the docker container. Allow a couple of minutes to build the container builds conda 4.6.8.
 
