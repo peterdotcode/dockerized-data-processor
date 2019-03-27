@@ -13,7 +13,7 @@ Run the below commands to create the docker container. Allow a couple of minutes
 ```
 cd dockerized-data-processor
 docker build -t peter_dowling_assignment .
-docker run --name v1 -p 8888:8888 -v "$PWD:/opt/notebooks" -d v1
+docker run --name peter_dowling_assignment -p 8888:8888 -v "$PWD:/opt/notebooks" -d peter_dowling_assignment
 ```
 
 Once build complete and running open <http://localhost:8888> use the **password:** _root_
