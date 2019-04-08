@@ -39,7 +39,7 @@ for i in soup.find_all('item'):
     TitleMeta  = TitleMetaRegex.search(RawTitleText).group()
 
     #Get the ID like "1810.08276v3"
-    TitleMetaRegex_version = re.compile(r'(\d.\d*.\d.\d*\D\d.)')
+    TitleMetaRegex_version = re.compile(r'(\d+[.]\d+[v]\d+)')
     VersionID =  TitleMetaRegex_version.search(TitleMeta).group()
 
     #split version id string into publication_id and publication_version
