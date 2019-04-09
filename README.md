@@ -11,6 +11,7 @@ _The site does not contain a valid SSL cert so you will need to click show detai
 Run the below commands to create the docker container. Allow a couple of minutes to build the container builds conda 4.6.8.
 
 ```
+git clone https://github.com/peterdotcode/dockerized-data-processor.git
 cd dockerized-data-processor
 docker build -t peter_dowling_assignment .
 docker run --name peter_dowling_assignment -p 8888:8888 -v "$PWD:/opt/notebooks" -d peter_dowling_assignment
